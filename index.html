@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Міжнародні резерви</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Міжнародні резерви</h1>
+
+    <form id="input-form">
+        <label for="year">Рік:</label>
+        <input type="number" id="year" min="1900" max="2100" required>
+
+        <label for="month">Місяць:</label>
+        <input type="number" id="month" min="1" max="12" required>
+
+        <button type="submit">Показати</button>
+    </form>
+
+    <div id="error-message"></div>
+
+    <ul id="reserves-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
